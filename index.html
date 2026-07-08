@@ -14,7 +14,7 @@
             margin: 0;
             min-height: 100vh;
         }
-        .player {
+        .container {
             max-width: 600px;
             margin: 0 auto;
             background: rgba(0,0,0,0.7);
@@ -22,27 +22,30 @@
             border-radius: 25px;
             box-shadow: 0 0 40px rgba(255, 100, 255, 0.5);
         }
-        h1 { font-size: 2.8em; margin-bottom: 10px; }
+        h1 { font-size: 2.8em; margin: 10px 0; }
+        p.owner { font-size: 1.1em; opacity: 0.9; margin: 10px 0 30px; }
         iframe {
             width: 100%;
+            max-width: 560px;
             height: 380px;
             border: none;
             border-radius: 15px;
         }
         .lyrics {
-            margin-top: 30px;
+            margin-top: 40px;
             text-align: left;
             background: rgba(255,255,255,0.1);
-            padding: 20px;
-            border-radius: 12px;
-            line-height: 1.8;
+            padding: 25px;
+            border-radius: 15px;
+            line-height: 1.9;
+            font-size: 1.15em;
         }
     </style>
 </head>
 <body>
-    <div class="player">
+    <div class="container">
         <h1>In Another Life</h1>
-        <p>Katy Perry - The One That Got Away</p>
+        <p class="owner">Song for KSL</p>
         
         <iframe src="https://www.youtube.com/embed/oXEyW4rA4Z8" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -53,7 +56,9 @@
             In another life, I would be your girl<br>
             We'd keep all our promises, be us against the world<br>
             In another life, I would make you stay<br>
-            So I don't have to say you were the one that got away...
+            So I don't have to say you were the one that got away<br><br>
+            
+            The one that got away...
         </div>
     </div>
 </body>
